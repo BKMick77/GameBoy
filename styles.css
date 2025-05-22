@@ -140,6 +140,7 @@
   position: absolute;
   border-radius: 50%;
   z-index: 3;
+  border: 0.25px solid #000;
 }
 
 .battery {
