@@ -38,6 +38,14 @@
   font-display: swap;
 }
 
+@font-face {
+  font-family: "Helvetica_Condenced-Normal";
+  src: url("./Fonts/Helvetica_Condenced-Normal.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
 .gameboy {
   display: grid;
   position: relative;
@@ -79,7 +87,7 @@
 .pinstripe-red {
   background: #72032b;
   height: 2.2px;
-  width: 170px;
+  width: 175px;
   left: 0.65rem;
   top: 0.4rem;
   position: absolute;
@@ -90,7 +98,7 @@
 .pinstripe-blue {
   background: #000435;
   height: 2.2px;
-  width: 170px;
+  width: 175px;
   left: 0.65rem;
   top: 0.9rem;
   position: absolute;
@@ -99,11 +107,11 @@
 }
 
 .dot-matrix {
-  font-family: "Helvetica Neue";
-  font-size: 0.8rem;
+  font-family: "Helvetica_Condenced-Normal";
+  font-size: 0.85rem;
   color: #e9e8e6;
-  left: 11.5rem;
-  top: 0.2rem;
+  left: 11.75rem;
+  top: 0.25rem;
   position: absolute;
   border-radius: 8%;
   z-index: 3;
@@ -112,8 +120,8 @@
 .pinstripe2-red {
   background: #72032b;
   height: 2.2px;
-  width: 52px;
-  left: 21.25rem;
+  width: 55px;
+  left: 21.1rem;
   top: 0.4rem;
   position: absolute;
   border-radius: 8%;
@@ -123,8 +131,8 @@
 .pinstripe2-blue {
   background: #000435;
   height: 2.2px;
-  width: 52px;
-  left: 21.25rem;
+  width: 55px;
+  left: 21.1rem;
   top: 0.9rem;
   position: absolute;
   border-radius: 8%;
@@ -206,7 +214,7 @@
   height: 47px;
   border-radius: 50%;
   background: #72032b;
-  border: 1px solid #000;
+  border: 2px solid #000;
   z-index: 3;
 }
 
@@ -215,7 +223,7 @@
   height: 47px;
   border-radius: 50%;
   background: #72032b;
-  border: 1px solid #000;
+  border: 2px solid #000;
   z-index: 3;
 }
 
@@ -252,7 +260,7 @@
   background: #2b2a2e;
   z-index: 3;
   border-radius: 5px;
-  border: 1px solid #000;
+  border: 3px solid #000;
 }
 
 .dpad-hor {
@@ -264,6 +272,9 @@
   background: #2b2a2e;
   z-index: 3;
   border-radius: 5px;
+  border-width: 0px 3px 0px 3px;
+  border-style: solid;
+  border-color: #000;
 }
 
 .start {
